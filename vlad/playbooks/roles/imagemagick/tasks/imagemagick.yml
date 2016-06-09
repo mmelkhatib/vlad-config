@@ -1,0 +1,4 @@
+---
+- name: install ImageMagick
+  apt: pkg=imagemagick
+  sudo: yes

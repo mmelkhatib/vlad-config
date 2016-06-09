@@ -1,0 +1,4 @@
+---
+- name: Install sendmail packages
+  apt: pkg=sendmail state=installed
+  sudo: true
